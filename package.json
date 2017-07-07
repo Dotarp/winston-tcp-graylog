@@ -1,7 +1,7 @@
 {
-  "name": "winston-tcp-graylog",
-  "version": "1.0.12",
-  "description": "graylog support for winston based on gelf-pro",
+  "name": "knack-winston-tcp-graylog",
+  "version": "1.0.00",
+  "description": "graylog support for winston based on gelf-pro forked from https://github.com/nskazki/winston-tcp-graylog/ (see note in readme)",
   "main": "src-build",
   "scripts": {
     "prepublish": "npm run build",
@@ -11,22 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nskazki/winston-tcp-graylog.git"
+    "url": "git+https://github.com/Dotarp/winston-tcp-graylog.git"
   },
   "keywords": [
-    "winston",
-    "gelf-pro",
-    "logger",
-    "graylog",
-    "tcp",
-    "udp"
   ],
-  "author": "nskazki@gmail.com",
+  "author": "dotarp@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nskazki/winston-tcp-graylog/issues"
+    "url": "https://github.com/Dotarp/winston-tcp-graylog/pulls"
   },
-  "homepage": "https://github.com/nskazki/winston-tcp-graylog#readme",
+  "homepage": "https://github.com/Dotarp/winston-tcp-graylog#readme",
   "dependencies": {
     "bluebird": "^3.1.1",
     "clear-require": "^1.0.1",
